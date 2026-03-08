@@ -24,7 +24,7 @@ const getEvents = async () => {
             artist.textContent = `Artist: ${concert.artist}`;
             
             const ticketPrice = document.createElement('p');
-            ticketPrice.textContent = `Ticket Price: $${concert.ticketPrice}`;
+            ticketPrice.textContent = `Ticket Price: $${concert.ticket_price}`;
 
             const readMore = document.createElement('a');
             readMore.textContent = 'Read More';
